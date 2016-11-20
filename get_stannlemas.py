@@ -1,6 +1,6 @@
 import xlrd
 
-file = xlrd.open_workbook('C:\Users\MJI\Dropbox\Yahoo! Mail\database_julyaug.xlsx')
+file = xlrd.open_workbook('C:\~ Mail\database_julyaug.xlsx')
 worksheet = file.sheet_by_name('LREU Schedule')
 
 date = raw_input('Enter the weekend as a text string e.g Sep 1/2: ')
